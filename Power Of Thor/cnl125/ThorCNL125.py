@@ -10,13 +10,22 @@ import math
 # <p>light_x: the X position of the light of power light_y: the Y position of
 #     the light of power thor_x: Thor's starting X position or thor_x thor_y:
 #     Thor's starting Y position or thor_y</p>
+# <p><span style="background-color: rgb(241, 196, 15);">KNT</span>: I was able
+#     to recognize each variable, but I would put some kind of divider or
+#     another line between the variables rather than a space.</p>
 light_x, light_y, thor_x, thor_y = [int(i) for i in input().split()]
+
+
 
 # <p>game loop</p>
 while True:
     remaining_turns = int(input())  # The remaining amount of turns Thor can move. Do not remove this line.
 
     # <p>Instantiate direction variables for later print statement</p>
+    # <p><span style="background-color: rgb(241, 196, 15);">KNT</span>: I see
+    #     that at the bottom that this is used to move Thor. I would suggest
+    #     placing either a problem statement at the top or a link to the game
+    #     site to make sure the goal is understood.</p>
     ydirection = ""
     xdirection = ""
 # <p>&nbsp;</p>
@@ -43,4 +52,7 @@ while True:
 
     # <p>Print statement to direct thor, need to print Y direction first to
     #     follow standard "NW" format</p>
+    # <p><span style="background-color: rgb(241, 196, 15);">KNT</span>: All of
+    #     the comments on Thor's movement are great! The variable names are also
+    #     perfect.</p>
     print(ydirection + xdirection)
