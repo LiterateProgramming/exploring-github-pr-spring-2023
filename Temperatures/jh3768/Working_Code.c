@@ -7,6 +7,9 @@
 //     using C as my coding language for our in-class exercise. The objective of
 //     this game is to analyze an array of temperatures and print out the
 //     temperature that is closest to zero.</p>
+// <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> Adding a
+//     "purpose statement" will improve the readability.</p>
+// <p>&nbsp;&nbsp;</p>
 // <h3><a id="Rules"></a>Rules:&nbsp;</h3>
 // <ol>
 //     <li>If there are no temperatures provided, print zero as the temperature
@@ -49,13 +52,32 @@
 // <p>So not only was I able to make my code look&nbsp;<em>more structured</em>
 //     on my second attempt, I also commented the code <em>much better</em> than
 //     in my first attempt. Here is the code from my second attempt:</p>
+// <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> Good job
+//     capturing your though process. By providing me with your initial code and
+//     link to the coding game, I was able to compare the default code and your
+//     modified code.&nbsp;</p>
+// <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> Good job
+//     with the diagram. I believe that the diagram will be more complete if you
+//     had add: Start and end bubbles. Futhermore, following the <a
+//         href="https://en.wikipedia.org/wiki/Flowchart#:~:text=The%20American%20National%20Standards%20Institute,bottom%20and%20left%20to%20right.">ANSI
+//         standards</a> for flow diagrams will make it much easiler to follow.
+//     Nevertheless, it is easly to follow.</p>
 // <h3>Libraries included:</h3>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 
+// <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> This
+//     comment is optional, providing an explaination of imported libraries is a
+//     good way to let me know whether you had imported nonstandard libraries.
+//     Also, it also lets me know the purpose of each library.&nbsp;&nbsp;</p>
 // <p>Main:</p>
+// <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> The comment
+//     above "Main:" identifying the main function local is good. However, an
+//     overview/summary of the main function will make it more complete.&nbsp;
+// </p>
+// <p>&nbsp;</p>
 int main()
 {
     //the number of temperatures to analyse
@@ -66,6 +88,30 @@ int main()
     scanf("%d", &n);
 
     // <p><a href="#Rules">Rule 1</a>:</p>
+    // <p><span style="background-color: rgb(241, 196, 15);">Comment belows are
+    //         for lines 69-83</span></p>
+    // <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> You
+    //     might want to rename the variable "n" to a name such as
+    //     temperature_list or temperture_array_size. In addition, the n
+    //     variable change will make the for loop easier to read. Futhermore,
+    //     renaming zerovalue to a name such as temperature_element will make it
+    //     much easiler to read. In my opinion, int zerovalue should be a
+    //     boolean typcast because zerovalue is just simply a variable that is
+    //     alway zero. In this case, zerovalue takes on a range of numbers. As a
+    //     result, a meaningful name will make the software easier to
+    //     read.&nbsp;</p>
+    // <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> The
+    //     else value for 5527 was not explained until lines 80-83. I believe
+    //     that the temperature range can also be explained in Attempt 2.&nbsp;
+    // </p>
+    // <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> An
+    //     explaination of the variable t as an input will provide me the
+    //     information I need to determine that T is a default gaming variable.
+    //     I suggest adding a table which identifies the inputs/outputs will
+    //     better explain the program.&nbsp;</p>
+    // <p><span style="background-color: rgb(241, 196, 15);">MPN:</span> Unable
+    //     to utilize the anchor/hyperlink.&nbsp;</p>
+    // <p>&nbsp;</p>
     //Show the temperature closest to zero as 0 (zero) if no temperatures are provided
     if (n == 0){
         zerovalue = 0;
@@ -82,6 +128,14 @@ int main()
         scanf("%d", &t);
 
         // <p><a href="#Rules">Rule 2</a>:</p>
+        // <p><span style="background-color: rgb(241, 196, 15);">Comment belows
+        //         are for lines 85-98</span></p>
+        // <p><span style="background-color: rgb(241, 196, 15);">MPN:</span>
+        //     Good job providing comments. If the comments were not provided
+        //     then I would not had followed the code logic. Perhaps changing
+        //     the code variable names such as current temperature and new
+        //     temperature will help make the logical easy to read.&nbsp;</p>
+
         //If the new temperature is equally as close to zero as what is
         //already recorded, record the absolute value of that temperature
         //as the new zero value.
@@ -99,3 +153,13 @@ int main()
 
     return 0;
 }
+        // <p><span style="background-color: rgb(241, 196, 15);">MPN-In
+        //         summary:&nbsp;</span></p>
+        // <p>1. The writting is clear and coherent: Yes</p>
+        // <p>2. Variables have meaning ful, releveant names: Yes, but some
+        //     suggestions were made</p>
+        // <p>3. Is the key insights into how to solve this problem clearly
+        //     stated? Yes, great insight to the though process in the approach
+        //     summary and good job on the flow diagram.</p>
+        // <p>&nbsp;</p>
+
