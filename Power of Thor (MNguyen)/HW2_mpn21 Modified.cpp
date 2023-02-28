@@ -12,6 +12,11 @@
 // <p style="text-align: center;"><span style="font-size: 10pt;"><img
 //             src="https://gifdb.com/images/file/marvel-thor-ragnarok-electricty-super-power-9ey17chtxt549m8x.gif"
 //             alt="" width="498" height="294"></span></p>
+// <p style="text-align: left;"><span style="font-size: 12pt;"><span
+//             style="background-color: rgb(251, 238, 184);">jh3768</span>: The
+//         title block is well organized and seems fit for a scholarly article
+//         to me. I appreciate how you have cited your class and Dr. Jones, and
+//         the .gif is a great touch for your assignment.</span></p>
 // <p><span style="text-decoration: underline;">Assignment Instructions:</span>
 // </p>
 // <ol>
@@ -40,6 +45,11 @@
 //         to this solution.</li>
 //     <li>Give variables meaningful, relevant names.</li>
 // </ol>
+// <p><span style="background-color: rgb(251, 238, 184);">jh3768</span>: I am
+//     definitely nitpicking here, but I would put the instructions after the
+//     "purpose" block of text. I think it's better to describe the assignment
+//     and why you're doing it before you describe the scope of the assignment.
+// </p>
 // <h2 style="text-align: left;">Purpose</h2>
 // <p>The purpose of this assignment is to demonstrate techniques and
 //     practicality of Literature Programming. We will be using CodeChat Editor
@@ -87,6 +97,10 @@
 //     <li><a href="https://cplusplus.com/reference/cmath/">Math.h</a> -
 //         Purpose: Used to calculate trigonmetry formulas.</li>
 // </ol>
+// <p><span style="background-color: rgb(251, 238, 184);">jh3768</span>:
+//     Describing imports goes above and beyond what I would have expected for
+//     this assignment, and I think the thoroughness that you show here (and
+//     throughout the rest of the document) is amazing.</p>
 
 //Source Code Imported Libraries
 
@@ -128,9 +142,15 @@ using namespace std;
 //     according to the problem statement. --- Hint: You can use the debug
 //     stream to print initialTX and initialTY, if Thor seems not follow your
 //     orders.</p>
-// <p>&nbsp;</p>
+// <p><span style="background-color: rgb(251, 238, 184);">jh3768</span>: This is
+//     a very concise and easy-to-understand description of the game.</p>
 // <h2>Point of Clarification / Self-Discovered / Lesson Learned / Usage hints
 //     for Power of Thor / Knowledge transfer</h2>
+// <p><span style="background-color: rgb(251, 238, 184);">jh3768</span>: This
+//     title is quite long; I understand that it is this long to show importance
+//     and probably a method to vent, so I'm not sure whether it needs to be
+//     critisized or not. I'd say it should be changed for official
+//     documentation but is fine for unofficial documentation.</p>
 // <p>It is evident that the developer had given this section a long title full
 //     of colorful descriptive statements. The purpose of such a long title is
 //     to provide a section that encapsulates self-reflection. The
@@ -140,6 +160,11 @@ using namespace std;
 //     and clarifications from debugging and experimenting with the software can
 //     be an excellent method to vent while providing valid bullet points.&nbsp;
 // </p>
+// <p><span style="background-color: rgb(251, 238, 184);">jh3768</span>: This
+//     entire section is a great way to show your path to the solution, and to
+//     show the missteps that you made along the way. This is the kind of
+//     section that would be very helpful for a future developer to see before
+//     editing/maintaining your code.</p>
 // <table style="border-collapse: collapse; width: 102.829%; height: 452.444px;"
 //     border="1">
 //     <colgroup>
@@ -276,6 +301,11 @@ using namespace std;
 // <p>The steps below provide the explanation to determine the positions of
 //     Thor/Light, the direction movement type (cross or straight), and the
 //     track/displacement of the two objectives after each movement:&nbsp;</p>
+// <p><span style="background-color: rgb(251, 238, 184);">jh3768</span>: This is
+//     another one of those sections that would be <strong>extremely</strong>
+//     helpful for any future developer who works on this code. The graphics are
+//     a great addition and are a great way to assist your description of the
+//     calculations.</p>
 // <ol>
 //     <li><span data-preserver-spaces="true"><a id="Logical_step_1"></a>The
 //             function calculates the difference between thor and light (x,y)
@@ -391,6 +421,10 @@ void direction(int current_thor_x, int current_thor_y, int current_light_x, int 
 //     movement of Thor, requiring the need to establish initial state flags.
 //     Furthermore, the direction function keeps track of the movement and
 //     displacement of Thor's position after each movement.&nbsp;</p>
+// <p><span style="background-color: rgb(251, 238, 184);">jh3768</span>: I
+//     appreciate how you keep the code together and link back to any relevant
+//     descriptions, calculations, etc. The variable names are also well-made
+//     and help in understanding the code.</p>
 // <p>&nbsp;</p>
 int main()
 {
