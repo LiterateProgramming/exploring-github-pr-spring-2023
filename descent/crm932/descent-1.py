@@ -1,3 +1,60 @@
+# <h1>Code Review HW Questions Descent</h1>
+# <ul>
+#     <li>Is the writing clear and coherent?
+#         <ul>
+#             <li>Each paragraph should have a clear topic sentence.
+#                 <ul>
+#                     <li><span
+#                             style="background-color: rgb(241, 196, 15);">dls781:
+#                             In this code the given comments were very
+#                             descriptive and provided a good summary of the
+#                             steps involved with the approach taken</span></li>
+#                 </ul>
+#             </li>
+#             <li>Do you understand, and can you follow the logic, of your
+#                 partner's program?
+#                 <ul>
+#                     <li><span
+#                             style="background-color: rgb(241, 196, 15);">dls781:&nbsp;
+#                             I can certainly follow the logic and flow for this
+#                             program, but this is a very small set of codes, so
+#                             the longer and more complex the code becomes, it
+#                             may be necessary to provide more in the way of
+#                             comments and doc-blocks.</span></li>
+#                 </ul>
+#             </li>
+#             <li>There must be a clear, coherent presentation of both the
+#                 problem your partner's program solves and your partner's
+#                 approach to this solution.
+#                 <ul>
+#                     <li><span
+#                             style="background-color: rgb(241, 196, 15);">dls781:&nbsp;
+#                             This program has a very clear, coherent and
+#                             thorough section on the approach taken to solve
+#                             the problem.</span></li>
+#                 </ul>
+#             </li>
+#         </ul>
+#     </li>
+#     <li>Do variables have meaningful, relevant names?
+#         <ul>
+#             <li><span
+#                     style="background-color: rgb(241, 196, 15);">dls781:&nbsp;
+#                     The variables are descript enough, however to someone who
+#                     may not have a lot of experience, it might be required to
+#                     make the names more meaningful.</span></li>
+#         </ul>
+#     </li>
+#     <li>Is the key insight into how to solve this problem clearly stated?
+#         <ul>
+#             <li><span
+#                     style="background-color: rgb(241, 196, 15);">dls781:&nbsp;
+#                     Yes.&nbsp; I believe that I could figure out what the main
+#                     intent or key insight was.&nbsp;</span></li>
+#         </ul>
+#     </li>
+# </ul>
+# <h1>&nbsp;</h1>
 # <h1>The Descent</h1>
 # <p><span style="background-color: rgb(241, 196, 15);">dsl781: This is a good
 #         explanation, and is very helpful.&nbsp; Just make sure that you review
