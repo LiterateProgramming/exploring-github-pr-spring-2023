@@ -91,8 +91,11 @@
 //         </tr>
 //     </tbody>
 // </table>
-// <h3 id="h_55388256262451675731459007"><a
-//         id="Fight_Battle"></a>&nbsp;Fight/Battle</h3>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: Nice use
+//     of a table here! Much easier to read than if you were to write this
+//     out.&nbsp;</p>
+// <h3 id="h_55388256262451675731459007"><a id="Fight_Battle"></a> Fight/Battle
+// </h3>
 // <p><span data-preserver-spaces="true">The beginning of each round starts in
 //         the Fight/Battle stage. At the beginning of each Fight/Battle, both
 //         players draw a card off the top of their deck. These cards are added
@@ -107,6 +110,9 @@
 //             data-preserver-spaces="true">War</span></a><span
 //         data-preserver-spaces="true">&nbsp;stage begins.</span></p>
 // <h3><a id="War"></a>&nbsp;War</h3>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: It may be
+//     beneficial to mention that the three cards drawn for a war remain face
+//     down.&nbsp;</p>
 // <p><span data-preserver-spaces="true">In the war stage, each player draws
 //         three cards from the top of their deck and adds them to their staked
 //         cards. They then return to the&nbsp;</span><a class="editor-rtfLink"
@@ -116,6 +122,15 @@
 //         data-preserver-spaces="true">&nbsp;stage to determine a winner. It is
 //         not abnormal for a single game round to be comprised of multiple
 //         wars.&nbsp;</span>&nbsp;</p>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: Good
+//     description of the basic stages of the real-life card game. I like how
+//     you referenced and linked the fight/battle and war stages together to
+//     show how they connect. I would mention the order of how the cards stack
+//     in the staked cards for each player. Just to make it clear that the first
+//     card drawn (that starts the war) is placed onto the bottom of the deck
+//     first, then the three cards drawn during a war are placed after, and then
+//     the card that wins/loses the final battle. Maybe an example of this would
+//     help it be more clear.&nbsp;</p>
 // <h3><a id="Determining_the_Winner"></a>&nbsp;Determining the Winner</h3>
 // <p><span data-preserver-spaces="true">A player wins when the other player no
 //         longer has cards to play. The only exception to this rule is when a
@@ -146,6 +161,13 @@
 //         stages will be "jump links," which will jump you to the portions of
 //         code being described.</span></p>
 // <p><strong>Game Stages</strong>&nbsp;</p>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: I like the
+//     use of a table here to organize each stage and make it easy to jump to
+//     each section quickly. I am a bit curious as to why you didn't decide to
+//     keep the fight/battle stage and the war stage separate though. I feel
+//     like keeping these stages separate similar to the description of the game
+//     above would help improve the understanding of how they are
+//     connected.&nbsp;</p>
 // <table style="border-collapse: collapse; width: 100.001%; height: 125px;"
 //     border="1">
 //     <colgroup>
@@ -193,17 +215,22 @@
 //         </tr>
 //     </tbody>
 // </table>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: I like the
+//     example outputs as it makes it very clear what needs to be outputted, but
+//     I would recommend rewording the first sentence below. The use of
+//     "game-winner" generally makes me think of the move that leads to the win,
+//     not necessarily the player that won.</p>
 // <p>The challenge asks that we implement the above stages and output the
 //     game-winner and the number of game rounds. An example output is as
 //     follows "1 3". In this instance, Player 1 won, and the game lasted three
 //     rounds. A short table of example outputs (with explanations of what they
 //     mean) is provided below.</p>
 // <p><strong>Example Outputs</strong></p>
-// <table style="border-collapse: collapse; width: 100.001%; height: 126px;"
+// <table style="border-collapse: collapse; width: 100%; height: 126px;"
 //     border="1">
 //     <colgroup>
-//         <col style="width: 49.9374%;">
-//         <col style="width: 50%;">
+//         <col style="width: 49.9505%;">
+//         <col style="width: 50.033%;">
 //     </colgroup>
 //     <tbody>
 //         <tr style="height: 21px;">
@@ -235,6 +262,10 @@
 //         </tr>
 //     </tbody>
 // </table>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: Good use
+//     of a link back to a previous description of the PAT output considering
+//     the case in which they consider a draw for this simulation is not
+//     generally seen as a draw in the real-life game.</p>
 // <h3 id="h_19159367641411675728910787"><a id="Input_Stage"></a>&nbsp;Input
 //     Stage</h3>
 // <p>The input stage is required to create the players' decks and distribute
@@ -259,6 +290,11 @@
 // <p>The reading in and population of each players' cards can be found&nbsp;<a
 //         href="ECE6793_CodingWithReflection_War_Solution_kaf386.cpp#Code_InputStage"
 //         target="_blank" rel="noopener">here</a>.</p>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: I like the
+//     example input image and the annotation within it, but I would explain the
+//     format for the card descriptors before the image. Seeing this image first
+//     I was a bit confused why there were extra characters after the card
+//     values before reading the paragraph below.&nbsp;</p>
 // <h4><a id="Parsing_Card_Descriptors"></a>&nbsp;Parsing Card Descriptors</h4>
 // <p><span data-preserver-spaces="true">A card descriptor is a string
 //         representing the card's face and suit. For example, <em>AS</em>
@@ -295,6 +331,10 @@
 //         href="ECE6793_CodingWithReflection_War_Solution_kaf386.cpp#Code_ParseCard"
 //         target="_blank" rel="noopener"><span
 //             data-preserver-spaces="true">here</span></a>.</p>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: Very good
+//     description of this helper function. This made it easy to understand and
+//     read the code, especially for those extra functions that were
+//     linked.&nbsp;</p>
 // <figure class="image"><img src="images/card_descriptor_example.png" alt=""
 //         width="353" height="267">
 //     <figcaption>Card Descriptor Breakdown</figcaption>
@@ -333,6 +373,13 @@
 //         target="_blank" rel="noopener"><span
 //             data-preserver-spaces="true">Game Breakdown</span></a><span
 //         data-preserver-spaces="true">).&nbsp;</span></p>
+// <p><span data-preserver-spaces="true"><span
+//             style="background-color: rgb(251, 238, 184);">MDE</span>: Good
+//         overview and description of the game stage! I like the name "round
+//         manager" used to describe this section, and would even suggest
+//         renaming this stage to something containing the word "round" in it so
+//         that you can get a better idea of what this stage is doing from the
+//         name.&nbsp;</span></p>
 // <h4><a id="Game_Winner_Values"></a>&nbsp;Game Winner Values</h4>
 // <p><span data-preserver-spaces="true">In the real-life breakdown, it was
 //         discussed that there are <strong>three victory states Player 1 Wins,
@@ -384,6 +431,9 @@
 //         </tr>
 //     </tbody>
 // </table>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: I like the
+//     addition of keeping the built-in undefined state here so that it would be
+//     easy to tell what went wrong if this were the output.&nbsp;</p>
 // <h3><a id="Fight_Battle_Stage"></a>&nbsp;Fight/Battle Stage</h3>
 // <p><span data-preserver-spaces="true">The Fight/Battle Stage code implements
 //         the logic for both the&nbsp;</span><a class="editor-rtfLink"
@@ -466,6 +516,26 @@
 //             data-preserver-spaces="true">Fight/Battle</span></a><span
 //         data-preserver-spaces="true">&nbsp;function is called recursively
 //         with the "in war" parameter set to true.</span></p>
+// <p><span data-preserver-spaces="true"><span
+//             style="background-color: rgb(251, 238, 184);">MDE</span>: It
+//         looks as though if you change the war section to check if player 1 or
+//         player 2 has less than four cards rather than less than three, this
+//         would allow you to take out the check at the beginning of the battle
+//         section. If either player has less than four cards in a war, it
+//         should always end in a draw since they do not have enough cards to do
+//         the next battle to determine the winner of the war. The player with
+//         cards less than four though will need to have their hand queue
+//         emptied though before returning to the game stage. If it's not
+//         emptied here, the loop will continue as it thinks there are still
+//         cards in the player's hand. With this returning -1 to the game stage
+//         here and one player's hand empty, there should be no cases left where
+//         either player will have zero cards at the beginning of the battle
+//         stage.&nbsp;</span></p>
+// <p><span data-preserver-spaces="true"><span
+//             style="background-color: rgb(251, 238, 184);">MDE</span>:
+//         Implementing the change stated above would also get rid of the need
+//         for the variable inWar. This variable is no longer needed because the
+//         draw will return from within the war section itself.&nbsp;</span></p>
 // <h4>Fight/Battle Stage Flow Chart</h4>
 // <p>The following image is a flowchart describing the Fight/Battle Stage
 //     function including the logic for the recursive <a
@@ -473,6 +543,10 @@
 //     stage.&nbsp;</p>
 // <p><img style="display: block; margin-left: auto; margin-right: auto;"
 //         src="images/rb_flow.png" alt="" width="583" height="706"></p>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: I like the
+//     flowchart visual here. It makes it much easier to understand how the code
+//     is formatted with the recursion and all the various spots where values
+//     are returned to the game stage.&nbsp;</p>
 // <p>&nbsp;</p>
 // <h3><a id="Post_Game_Loop"></a> Post-Game Stage</h3>
 // <p><span data-preserver-spaces="true">The purpose of the Post-Game stage is
@@ -494,6 +568,11 @@
 //         target="_blank" rel="noopener"><span
 //             data-preserver-spaces="true">here</span></a><span
 //         data-preserver-spaces="true">.</span></p>
+// <p><span data-preserver-spaces="true"><span
+//             style="background-color: rgb(251, 238, 184);">MDE</span>: I like
+//         the use of both the fail-safe for the winner variable never updated
+//         and the undefined error state. Nice job at making sure the code can
+//         not fully error out or produce no output in this section!</span></p>
 // <h2><a id="Pseudocode"></a>&nbsp;Brief Pseudocode</h2>
 // <p>In order to summarize the process discussed above, the following is a
 //     brief pseudocode describing the entire process. This pseudocode will be
@@ -566,6 +645,9 @@
 //     &nbsp; &nbsp; &nbsp; &nbsp;i. Output &ldquo;1&rdquo; with the number of
 //     Game Rounds <br><strong>============================== | End of Post-Game
 //         Stage | ================================================</strong></p>
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: Very nice
+//     pseudocode use! This seems to match up with what you currently have
+//     implemented and is a nice guide to the program.&nbsp;</p>
 // <h2>Code</h2>
 
 // <h4>Necessary Includes and Namespace Setup</h4>
@@ -609,7 +691,12 @@ int ParseCard(string cardDescriptor) {
 //         href="ECE6793_CodingWithReflection_War_Solution_kaf386.cpp#Fight_Battle_Stage">Battle
 //         Function Information</a></h3>
 int Battle(queue<int> &P1Hand, queue<int> &P2Hand, queue<int> &P1Stakes, queue<int> &P2Stakes, bool inWar=false) {
-     // <pre><span style="color: rgb(22, 145, 121);">8. Check number of Cards in each hand, if either is 0.</span><br><span style="color: rgb(22, 145, 121);">     a. If in war return PAT (-1)</span><br><span style="color: rgb(22, 145, 121);">     b. Otherwise return Player 1 Win (1) or Player 2 Win (2) based off who has 0</span></pre>
+    // <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: As
+    //     stated above under the fight/battle stage description, this section
+    //     (8) is able to be removed if the code is refactored to handle draws
+    //     during the war section. The inWar variable will be able to be removed
+    //     from the program completely as well.&nbsp;</p>
+    // <pre><span style="color: rgb(22, 145, 121);">8. Check number of Cards in each hand, if either is 0.</span><br><span style="color: rgb(22, 145, 121);">     a. If in war return PAT (-1)</span><br><span style="color: rgb(22, 145, 121);">     b. Otherwise return Player 1 Win (1) or Player 2 Win (2) based off who has 0</span></pre>
     if (P1Hand.size() == 0) {
         return inWar ? -1 : 2;
     } else if (P2Hand.size() == 0) {
@@ -629,6 +716,18 @@ int Battle(queue<int> &P1Hand, queue<int> &P2Hand, queue<int> &P1Stakes, queue<i
     // <pre><span style="color: rgb(22, 145, 121);">11. Check for the following battle states: TIE (WAR STAGE)</span></pre>
     if (p1FightCard == p2FightCard) 
     {
+        // <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: As
+        //     stated above, I recommend checking for &lt; 4 in both of these if
+        //     statements. If either of the player's hands is less than four,
+        //     reinitialize that player's hand so that it is empty with
+        //     something like " P1Hand = queue&lt;int&gt;(); ". This will allow
+        //     the while loop to stop when -1 is returned to the battle stage
+        //     since the player's hand's size will be zero.&nbsp;</p>
+        // <p><span style="background-color: rgb(251, 238, 184);">MDE</span>:
+        //     Also, as this is written currently, inWar is never set to true
+        //     here when the war stage is entered, so these will always return
+        //     the player's number even though they are actually in the war
+        //     stage.&nbsp; &nbsp;</p>
         // <pre><span style="color: rgb(22, 145, 121);">12. Check the number of Cards in each hand, if either is less than three, return PAT (-1)</span></pre>
         if (P1Hand.size() < 3) {
             return inWar ? -1 : 2;
@@ -671,8 +770,19 @@ int main()
 
     // <pre><span style="color: rgb(22, 145, 121);">2. Create a "Hand" (Queue) for Player 2</span></pre>
     queue<int> P2Hand;
+    
+// <p>&nbsp; &nbsp; &nbsp; <span
+//         style="background-color: rgb(251, 238, 184);">MDE</span>: Changing
+//     the variable name 'n' to something such as 'numCardsP1' would help code
+//     readability and get rid of the extra comment next to the initialization.
+//     A similar change can be&nbsp; &nbsp; &nbsp; &nbsp; made for variable
+//     'm'.&nbsp;</p>
+// <p>&nbsp; &nbsp; &nbsp; <span
+//         style="background-color: rgb(251, 238, 184);">MDE</span>: An
+//     explanation or link to why cin.ignore() is used here could be beneficial.
+//     You could probably add this to your input stage description.&nbsp;</p>
 
-    // <pre><span style="color: rgb(22, 145, 121);">3. Loop over program inputs for Player 1, adding Cards to Player 1&rsquo;s Hand.</span></pre>
+    // <pre><span style="color: rgb(22, 145, 121);">3. Loop over program inputs for Player 1, adding Cards to Player 1&rsquo;s Hand.<br></span></pre>
     int n; // The number of cards for player 1
     cin >> n; cin.ignore();
     for (int i = 0; i < n; i++) {
@@ -680,7 +790,7 @@ int main()
         cin >> cardp_1; cin.ignore();
         P1Hand.push(ParseCard(cardp_1));
     }
-
+    
     // <pre><span style="color: rgb(22, 145, 121);">4. Loop over program inputs for Player 2, adding Cards to Player 2&rsquo;s Hand.</span></pre>
     int m; // The number of cards for player 2
     cin >> m; cin.ignore();
@@ -749,8 +859,30 @@ int main()
             break;
         case -2:
             cerr << "STATE WAS NOT UPDATED FROM UNDEFINED (-2)" << endl;
+        // <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: To
+        //     keep consistency, I would recommended changing the below cout to
+        //     cerr since you used cerr for the previous error
+        //     state.&nbsp;&nbsp;</p>
         default:
             cout << "ERROR! " << gameWinner << " is not a defined value." << endl;
             break;
     }
 }
+
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: Overall a
+//     very good breakdown and description of the problem and simulation for the
+//     solution. Your descriptions went in-depth and were very helpful in
+//     understanding how the program worked exactly. In the actual code for the
+//     solution, the variable names were well-named so that the code was easily
+//     readable. All of the tables, figures, the flowchart, and pseudocode were
+//     great choices to add to this documentation as most of these helped with
+//     visualizing the format and code. I could easily follow along with the
+//     code with the descriptions. I liked how the descriptions for each code
+//     section were separate from the code itself. The links between them made
+//     it easy to reference back to the description/code for each section. The
+//     main issue I saw within the program was within the battle/war stage.
+//     Mostly with the inWar variable not being set to true after entering a
+//     war, and then checked while currently within the war if statement. If the
+//     code is refactored there to be more accurate to the problem, this
+//     variable and issue will be fixed. Great work on this program and
+//     documentation!</p>
