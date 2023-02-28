@@ -12,7 +12,7 @@
 // <h2>The Code - Labyrinth (Checking the link to the git repo in smartgit)</h2>
 // <p><marK> crm: I like how you had added this introduction with access to the hyperlink to the game
 // I would suggest that you would add a brief description of the game the reason I would suggest this is because
-// certain target audience would like some or others wouldn't 
+// certain target audience would like some or others wouldn't </mark></p>
 
 
 #include <iostream>
