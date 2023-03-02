@@ -39,10 +39,6 @@
 #     with comparisons, my first thought was to use conditional if statements to
 #     solve the problem. I wrote out code in pseudocode and used this to
 #     construct my program which you will see below.&nbsp;</p>
-# <p><span style="background-color: rgb(241, 196, 15);">JRG&nbsp;</span> - This
-#     is a great overview and approach to the problem and I like that you
-#     initialized the final goal and bolded your epiphany. My only changes are
-#     on the grammatical side for more clarity.</p>
 # <h2>Beginning of Code</h2>
 # <h3>Imports</h3>
 import sys
@@ -64,8 +60,7 @@ light_x, light_y, initial_tx, initial_ty = [int(i) for i in input().split()]
 thorx = initial_tx
 thory = initial_ty
 
-# <p><span style="background-color: rgb(241, 196, 15);">JRG</span>: I agree with
-#     the variable names as they are intuitive yet concise.</p>
+# <p>&nbsp;</p>
 # <h3>Game Loop</h3>
 # <p>&nbsp; &nbsp; &nbsp; The first line in the while statement initializes a
 #     variable that gives it the value of however many turns you are given to
@@ -88,10 +83,11 @@ while True:
     #     the x value is less, then move east and increment the variable's
     #     value. The same is done for the y-axis.&nbsp;</p>
     # <p><img src="ifxlight.png" alt="" width="732" height="412"></p>
-    # <p><span style="background-color: rgb(241, 196, 15);">JRG</span>: This
-    #     chart is awesome and explains it pretty well. I would add a sentence
-    #     explain that if two falses are given and "" is printed, it's because
-    #     thor is already matched with that axis.</p>
+    # <p><span style="background-color: rgb(255, 255, 255);">This chart
+    #         demonstrates the if statement outcomes of the program. Depending
+    #         on True or False, the program could print the direction or print
+    #         an empty string meaning to not move in that direction. </span></p>
+    # <p>&nbsp;</p>
     #If Thor(x) > Light(x) : Print W and Decrease Thor(x) by 1
     if(thorx > light_x):
         directionx = "W"
@@ -115,9 +111,4 @@ while True:
     #     print the output</p>
     print(directiony + directionx)
 
-    # <p><span style="background-color: rgb(241, 196, 15);">JRG:</span> Overall,
-    #     this code is not only well-written but well described. I was able to
-    #     follow it well, and even I have the habit of not approaching the
-    #     problem as simply a coding problem the first time around. With some
-    #     grammatical fixes, the text gets even clearer and would only
-    #     positively accent the job you have done. Well Done!</p>
+    #
