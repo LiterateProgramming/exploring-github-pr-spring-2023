@@ -13,6 +13,9 @@ import math
 # <p><span style="background-color: rgb(241, 196, 15);">KNT</span>: I was able
 #     to recognize each variable, but I would put some kind of divider or
 #     another line between the variables rather than a space.</p>
+# <p><span style="background-color: rgb(241, 196, 15);">CNL</span>: I decided
+#     to not mess with this as it is part of the default code provided
+#     from coding game, and I don't want to mess up the input stream. </p>
 light_x, light_y, thor_x, thor_y = [int(i) for i in input().split()]
 
 
@@ -26,6 +29,8 @@ while True:
     #     that at the bottom that this is used to move Thor. I would suggest
     #     placing either a problem statement at the top or a link to the game
     #     site to make sure the goal is understood.</p>
+    # <p><span style="background-color: rgb(241, 196, 15);">CNL</span>: Added. </p>
+    # <p> The game is accessible via https://www.codingame.com/ide/puzzle/power-of-thor-episode-1 </p>
     ydirection = ""
     xdirection = ""
 # <p>&nbsp;</p>
@@ -55,4 +60,6 @@ while True:
     # <p><span style="background-color: rgb(241, 196, 15);">KNT</span>: All of
     #     the comments on Thor's movement are great! The variable names are also
     #     perfect.</p>
+    # <p><span style="background-color: rgb(241, 196, 15);">CNL</span>: Thank
+    #     You!</p>
     print(ydirection + xdirection)
