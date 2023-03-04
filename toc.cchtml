@@ -1,0 +1,69 @@
+<h1>Exploring Git, Spring 2023</h1>
+<h2>Games</h2>
+<ol>
+    <li>Death first search
+        <ol>
+            <li><a
+                    href="death_first_search/ch3136/death_first_search.py">Clark</a>
+            </li>
+        </ol>
+    </li>
+    <li>The Descent
+        <ol>
+            <li><a href="descent/acf307/acf307.py">Avery</a></li>
+            <li><a href="descent/crm932/descent-1.py">Cooper</a></li>
+            <li><a
+                    href="descent/jrg706/CodingWithReflection_jrg706.py">Jeff</a>
+            </li>
+        </ol>
+    </li>
+    <li>Labyrinth
+        <ol>
+            <li><a href="Labyrinth/Labrynth.cc">Daniel</a></li>
+        </ol>
+    </li>
+    <li>Power of Thor
+        <ol>
+            <li><a href="Power%20Of%20Thor/bcb570/codegame.py">Brandon</a></li>
+            <li><a href="Power%20Of%20Thor/cnl125/ThorCNL125.py">Colbert</a>
+            </li>
+            <li><a
+                    href="Power%20Of%20Thor/mpn21/HW2_mpn21%20Modified.cpp">Michael</a>
+            </li>
+            <li><a
+                    href="Power%20Of%20Thor/sc1748/powerofthor_SCarley.py">Samantha</a>
+            </li>
+        </ol>
+    </li>
+    <li>Shadow of the Knight
+        <ol>
+            <li><a
+                    href="Shadow%20of%20the%20Knight/knt192/shadow_of_the_knight_python_code_knt192.py">Kaishu</a>
+            </li>
+        </ol>
+    </li>
+    <li>Temperatures
+        <ol>
+            <li><a href="Temperatures/jh3768/Working_Code.c">Josh</a></li>
+        </ol>
+    </li>
+    <li>There is no Spoon
+        <ol>
+            <li><a
+                    href="there_is_no_spoon/mde168/NoSpoonCodingGame_Solution_mde168.js">Kenzie</a>
+            </li>
+        </ol>
+    </li>
+    <li>War
+        <ol>
+            <li><a
+                    href="war/kaf386/ECE6793_CodingWithReflection_War_Solution_kaf386.cpp">Kyler</a>
+            </li>
+        </ol>
+    </li>
+</ol>
+<h2>Misc</h2>
+<ol>
+    <li><a href="README.cchtml">README</a></li>
+    <li><a href="toc.cchtml">Table of contents</a></li>
+</ol>

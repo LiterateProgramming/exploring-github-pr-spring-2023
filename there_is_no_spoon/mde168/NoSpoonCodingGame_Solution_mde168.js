@@ -1,4 +1,4 @@
-// <h1>Coding Game - There is No Spoon Solution Solution</h1>
+// <h1>Coding Game - There is No Spoon Solution</h1>
 // <h2>Overview</h2>
 // <p>The puzzle described in this document is "<a
 //         href="https://www.codingame.com/ide/puzzle/there-is-no-spoon-episode-1">There
