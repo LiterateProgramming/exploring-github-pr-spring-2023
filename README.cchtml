@@ -1,0 +1,12 @@
+<h1>About this repository</h1>
+<p>This repository provides a sandbox for the ECE 6793/4793 Literate
+    Programming (Spring 2023) course. It contains solutions to the&nbsp;<a
+        href="https://canvas.msstate.edu/courses/100842/assignments/872281">Coding
+        with reflection</a> assignment, with documentation using the CodeChat
+    Editor per the <a
+        href="https://canvas.msstate.edu/courses/100842/assignments/872292">Literate
+        programming</a> assignment, added to this Git repository based on the
+    <a href="https://canvas.msstate.edu/courses/100842/assignments/903708">Introduction
+        to Git</a> assignment. It also contains test files, but these aren't
+    included in the table of contents.</p>
+<p>&nbsp;</p>
