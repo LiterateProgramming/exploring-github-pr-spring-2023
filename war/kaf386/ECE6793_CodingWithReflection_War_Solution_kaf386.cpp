@@ -173,7 +173,7 @@
 //         code being described.</span></p>
 // <p><strong>Game Stages</strong>&nbsp;</p>
 // <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: <span
-//         style="background-color: rgb(191, 237, 210);">I like the use of a
+//         style="background-color: rgb(248, 202, 198);">I like the use of a
 //         table here to organize each stage and make it easy to jump to each
 //         section quickly. I am a bit curious as to why you didn't decide to
 //         keep the fight/battle stage and the war stage separate though. I feel
@@ -380,9 +380,10 @@
 //         latest round resulted in a PAT is made in order to streamline the
 //         battle function in the case of a draw (if an early termination check
 //         is not made in the round manager, then the battle function would need
-//         to be responsible for clearing the player's decks on a draw, instead
-//         their decks are entirely ignored in the case of a draw). This portion
-//         of the code can be found </span><a class="editor-rtfLink"
+//         to be responsible for clearing the player's decks on a draw. Instead,
+//         in the current implementation, their decks are entirely ignored in
+//         the case of a draw). This portion of the code can be found </span><a
+//         class="editor-rtfLink"
 //         href="ECE6793_CodingWithReflection_War_Solution_kaf386.cpp#Code_GameStage"
 //         target="_blank" rel="noopener"><span
 //             data-preserver-spaces="true">here</span></a><span
