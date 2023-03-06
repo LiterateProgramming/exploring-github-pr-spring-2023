@@ -172,8 +172,8 @@
 //         stages will be "jump links," which will jump you to the portions of
 //         code being described.</span></p>
 // <p><strong>Game Stages</strong>&nbsp;</p>
-// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>:<span
-//         style="background-color: rgb(248, 202, 198);"> I like the use of a
+// <p><span style="background-color: rgb(251, 238, 184);">MDE</span>: <span
+//         style="background-color: rgb(191, 237, 210);">I like the use of a
 //         table here to organize each stage and make it easy to jump to each
 //         section quickly. I am a bit curious as to why you didn't decide to
 //         keep the fight/battle stage and the war stage separate though. I feel
@@ -293,7 +293,7 @@
 //     the ability to avoid implementing structure control functions. Player
 //     cards are passed in by the simulation manager (external to this program)
 //     provided by CodinGame. These cards are passed in as the number of cards
-//     for Player 1 and then the&nbsp;<a
+//     for Player 1 and then the <a
 //         href="ECE6793_CodingWithReflection_War_Solution_kaf386.cpp#Parsing_Card_Descriptors">card
 //         descriptors</a> for each of Player 1's cards. This repeats for Player
 //     2 after all of Player 1's cards have been read in.&nbsp;</p>
@@ -381,9 +381,8 @@
 //         battle function in the case of a draw (if an early termination check
 //         is not made in the round manager, then the battle function would need
 //         to be responsible for clearing the player's decks on a draw, instead
-//         in this implementation their decks are entirely ignored in the case
-//         of a draw). This portion of the code can be found&nbsp;</span><a
-//         class="editor-rtfLink"
+//         their decks are entirely ignored in the case of a draw). This portion
+//         of the code can be found </span><a class="editor-rtfLink"
 //         href="ECE6793_CodingWithReflection_War_Solution_kaf386.cpp#Code_GameStage"
 //         target="_blank" rel="noopener"><span
 //             data-preserver-spaces="true">here</span></a><span
