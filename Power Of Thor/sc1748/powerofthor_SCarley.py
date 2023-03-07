@@ -1,6 +1,8 @@
 
 # <h2>Coding with Reflection: Power of Thor</h2>
 # <h3>Overview</h3>
+# <p><span style="background-color: rgb(236, 202, 250);">SSC: No comments to
+#         implement, Chase thought that everything looked good!</span></p>
 # <p>The game I chose is called&nbsp;<a
 #         href="https://www.codingame.com/ide/puzzle/power-of-thor-episode-1"
 #         target="_blank" rel="noopener">Power of Thor</a>. Thor must be moved
