@@ -37,9 +37,7 @@
 //             </tr>
 //         </tbody>
 //     </table>
-//     &nbsp;is shown below. <span
-//         style="background-color: rgb(241, 196, 15);">KAF: Good use of the
-//         table here to represent the game board</span>
+//     &nbsp;is shown below.
 // </div>
 // <p><a id="gridPicture"></a><img
 //         style="display: block; margin-left: auto; margin-right: auto;"
@@ -212,24 +210,7 @@
 //     for the neighbors of a power node, the neighbors for an empty cell are
 //     printed, the same power node is computed twice, or the neighbors for a
 //     power node are not printed. The test will <strong>pass </strong>if all
-//     the nodes are displayed correctly. <span
-//         style="background-color: rgb(241, 196, 15);">KAF: Good eye on making
-//         sure to include the "fail" states. I didn't think to include that in
-//         mine.</span></p>
-// <p><span style="background-color: rgb(241, 196, 15);">KAF: Good job
-//         explaining the problem! I do think you could make your explanation
-//         better by including more "input" vs "output" cases. One example isn't
-//         bad but two or three can allow the reader to better understand the
-//         problem. </span><span style="background-color: rgb(241, 196, 15);">I
-//         happened to work on this problem before my "War" challenge and
-//         initially missed the fact that it wanted the closest neighboring
-//         nodes. Having extra examples alleviates misunderstandings like this!
-//         The addition of one "complex" example would&nbsp;</span><span
-//         style="background-color: rgb(241, 196, 15);">add a lot to this
-//         initial explanation. Your highlight does help a lot with my
-//         particular mistakes as well. It might be best to also state "we want
-//         the closest non-empty node in the same column as well as the same
-//         row"</span></p>
+//     the nodes are displayed correctly.&nbsp;</p>
 // <h3>Solution Approach</h3>
 // <p>To compute the neighbors for a power node, the nodes directly right and
 //     directly below are first checked. If the node in that position is empty,
@@ -246,14 +227,6 @@
 //     and is determined to be the nearest neighbor to the right of the current
 //     power node. A similar process can be seen when looking for the nearest
 //     node below the node at (0,0).&nbsp;</p>
-// <p><span style="background-color: rgb(241, 196, 15);">KAF: This diagram and
-//         explanation is perfect! It actually touches perfectly on what I was
-//         talking about in my first comment. I'm leaving that first one there
-//         as from a "readers perspective" I think having more examples included
-//         in the initial discussion of the challenge would be useful. When I
-//         see "solution approach" I did not "assume" I would see another
-//         example. Aside from that great explanation and solid writing so
-//         far</span></p>
 // <h2>Solution - Code</h2>
 // <p>There are <strong>three different inputs</strong> given for this game. The
 //     first one is the width of the grid. The second input is the height of the
@@ -292,13 +265,6 @@ nodes = nodes[0].map((_, colIndex) => nodes.map(row => row[colIndex]));
 //     coordinates coordinate with the height of the grid. The x coordinates go
 //     from zero to width minus one. The y coordinates range from zero to height
 //     minus one.</p>
-// <p><span style="background-color: rgb(241, 196, 15);">KAF: Good Variable
-//         naming thus far. I like that you link back to the example and explain
-//         what that input would look like here! It may be arbitrary but is
-//         there a reason you went with a less-traditional nodes[y][x]
-//         arrangement in place of [x][y]? In larger code bases it might be
-//         "assumed" later on that it is [x][y] though your documentation does
-//         specify that it is not (so no big deal).</span></p>
 // <p><strong>To navigate through each node a double for loop is used.</strong>
 //     This double loop will go through each node on the grid starting with the
 //     top left and continuing horizontally for the length of the width and
@@ -317,12 +283,6 @@ for (let y = 0; y < height; y++){
         if (nodes[x][y] != '.'){
             output = x + ' ' + y;
 
-// <p><span style="background-color: rgb(241, 196, 15);">KAF: It might be
-//         worthwhile to re-clarify that '.' represents empty. Again this might
-//         just be a me thing, but I like things to be contained around what I
-//         am currently looking at. I.e. I wouldn't want to have to figure out
-//         what '.' is by rescrolling up and down through a code base to find
-//         out what its supposed to be.&nbsp;</span></p>
 // <p><strong>To compute the nearest neighbor to the right of the current
 //         node</strong>, a while loop is used to find the nearest power node.
 //     The loop starts with the node directly to the right and will continue
@@ -347,10 +307,6 @@ for (let y = 0; y < height; y++){
                 output = output + ' ' + xNeighbor + ' ' + y;
             }
 
-// <p><span style="background-color: rgb(241, 196, 15);">KAF: Good and clear
-//         logic progression and variable naming. So far the code has been
-//         extremely understandable and the leading discussion aids in this
-//         understanding.</span></p>
 // <p><strong>To compute the nearest neighbor below the current node</strong>,
 //     the same approach is used. The while loop will search for the nearest
 //     power node below the current node until it finds one or it reaches
@@ -386,18 +342,3 @@ for (let y = 0; y < height; y++){
 //     <a
 //         href="https://www.codingame.com/ide/puzzle/there-is-no-spoon-episode-1">CodinGame</a>
 //     to see each test pass with the visual.</p>
-// <p><span style="background-color: rgb(241, 196, 15);">KAF: Overall, I think
-//         this is a solid (yet brief) description of the problem and your
-//         solution the problem. Honestly, I do not know how good of a review I
-//         could give you seeing as how I already had solved the problem, so I
-//         knew the details decently well. I did not see anything other than
-//         maybe general respecifications/link backs to the initial descriptions
-//         for things like the "empty node" value before. You might try adding
-//         links for things like ParseInt or .split so that anyone "working" on
-//         the code can have a quick reference to their usage and expected
-//         outputs in the event it is discovered they aren't outputting the
-//         intended the results. In terms of the review criteria, I think your
-//         writing is very clear and coherent, your logic and program can be
-//         followed, and the information was presented in a coherent manner. The
-//         general solution to the problem was clearly stated and executed well
-//         in code!</span></p>
