@@ -1,8 +1,6 @@
 
 # <h2>Coding with Reflection: Power of Thor</h2>
 # <h3>Overview</h3>
-# <p><span style="background-color: rgb(236, 202, 250);">SSC: No comments to
-#         implement, Chase thought that everything looked good!</span></p>
 # <p>The game I chose is called&nbsp;<a
 #         href="https://www.codingame.com/ide/puzzle/power-of-thor-episode-1"
 #         target="_blank" rel="noopener">Power of Thor</a>. Thor must be moved
@@ -14,10 +12,6 @@
 #     statements to test where Thor is within the scene. Once implemented, he
 #     should automatically move to the light depending upon his starting
 #     position. Here we present pseudocode for this problem:</p>
-# <p><span style="background-color: rgb(241, 196, 15);">CAR: Your approach to
-#         solving this problem is, in my opinion, very logical. I took a similar
-#         approach in my code, though yours is perhaps better explained than
-#         mine. Great job!</span></p>
 # <p class="MsoNormal"
 #     style="margin-bottom: 0in; margin-top: 0in; mso-margin-bottom-alt: 8.0pt; mso-margin-top-alt: 0in; mso-add-space: auto; line-height: normal;">
 #     <em>The beginning of the game loop starts with obtaining Thor&rsquo;s
@@ -104,13 +98,6 @@
 #     &nbsp;</p>
 # <p class="MsoNormal"
 #     style="margin-bottom: 0in; margin-top: 0in; mso-margin-bottom-alt: 8.0pt; mso-margin-top-alt: 0in; mso-add-space: auto; text-indent: .5in; line-height: normal;">
-#     <span style="background-color: rgb(241, 196, 15);">CAR: everything here is
-#         clear. context is provided, and explanations are thorough.</span></p>
-# <p class="MsoNormal"
-#     style="margin-bottom: 0in; margin-top: 0in; mso-margin-bottom-alt: 8.0pt; mso-margin-top-alt: 0in; mso-add-space: auto; text-indent: .5in; line-height: normal;">
-#     &nbsp;</p>
-# <p class="MsoNormal"
-#     style="margin-bottom: 0in; margin-top: 0in; mso-margin-bottom-alt: 8.0pt; mso-margin-top-alt: 0in; mso-add-space: auto; text-indent: .5in; line-height: normal;">
 #     The picture below shows an example using the conditional statements in the
 #     pseudocode.&nbsp;&nbsp;</p>
 # <p><img src="Screenshot_edit.png" alt="Thor example" width="744" height="465">
@@ -134,9 +121,6 @@ thorY = initial_ty
 # <p>&nbsp;</p>
 # <p>game loop</p>
 # <p>&nbsp;</p>
-# <p><span style="background-color: rgb(241, 196, 15);">&nbsp; &nbsp; CAR:
-#         Overall the approach is very similar to mine, and I see no issues or
-#         concerns with the way the code is organized and presented.</span></p>
 while True:
     # <p>The remaining amount of turns Thor can move.</p>
     remaining_turns = int(input())  
