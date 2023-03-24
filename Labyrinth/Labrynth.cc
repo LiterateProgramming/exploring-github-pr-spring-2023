@@ -9,7 +9,7 @@
 // <p style="padding-left: 40px;">The information that helped solve this puzzle
 //     came from the "Introduction to Algorithms" course offered</p>
 // <p>&nbsp;</p>
-// <h2>The Code - Labyrinth (Checking the link to the git repo in smartgit)</h2>
+// <h2>The Code - Labyrinth</h2>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -162,7 +162,7 @@ vector<int>  where_to_go(vector<vector<char>> game_map, vector<int> start, bool 
 //     into the main execution</p>
 // <p>from the standard input, and then the code would right out the next "step"
 //     as a direction in either one of the</p>
-// <p style="text-align: center;">UP/DOWN/LEFT/RIGHT&nbsp;</p>
+// <p style="text-align: left;">UP/DOWN/LEFT/RIGHT&nbsp;</p>
 // <p>directions.&nbsp; That choice depends on whether or not the main character
 //     (Kirk) was still searching the maze,&nbsp;</p>
 // <p>or whether he had found the control room and needed to take his shortest
