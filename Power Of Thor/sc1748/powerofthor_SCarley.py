@@ -118,9 +118,11 @@ light_x, light_y, initial_tx, initial_ty = [int(i) for i in input().split()]
 
 thorX = initial_tx
 thorY = initial_ty
+# <p>&nbsp;</p>
 # <p>game loop</p>
+# <p>&nbsp;</p>
 while True:
-    # The remaining amount of turns Thor can move.
+    # <p>The remaining amount of turns Thor can move.</p>
     remaining_turns = int(input())  
 
     # <p>The beginning of the game loop starts with obtaining Thor&rsquo;s
@@ -144,4 +146,5 @@ while True:
 # <p style="padding-left: 40px;">Append the optimal X and Y directions together
 #     in order to use all eight directions available.</p>
     print(yDir+xDir)
+    
         
