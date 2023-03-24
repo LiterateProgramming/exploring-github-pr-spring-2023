@@ -80,11 +80,12 @@ while True:
     #     file=sys.stderr, flush=True)</p>
 
     # <p>Here, we note which <strong>connections</strong> are linked to
-    #     an&nbsp;<strong>exit node</strong></p>
+    #     an&nbsp;<strong>exit node.&nbsp;</strong>On Avery's recommendation,
+    #     I've renamed this list to "exit_connections"</p>
     exit_index: int
-    high_priority_connections: list[tuple[int, int]] = list()
+    exit_connections: list[tuple[int, int]] = list()
     for exit_index in exits:
-        high_priority_connections += [c for c in connections if exit_index in c]
+        exit_connections += [c for c in connections if exit_index in c]
 
     # <p>This is the key section. If the Bobnet is on a <strong>node
     #     </strong>that is an&nbsp;<strong>exit node</strong>, then we close the
@@ -105,10 +106,11 @@ while True:
     #     <li>This means, overall, that the program closes off the threatened
     #         <strong>nodes </strong>as the Bobnet moves around them.</li>
     # </ul>
+    # <p>&nbsp;</p>
     key: int
     value: list[int]
     high_priority_connection: tuple[int, int]
-    for high_priority_connection in high_priority_connections:
+    for high_priority_connection in exit_connections:
         if bobnet_position in high_priority_connection:
             print(f"{high_priority_connection[0]} {high_priority_connection[1]}")
 
@@ -135,4 +137,4 @@ while True:
     #     graph search to find which&nbsp;<strong>exit nodes</strong> are at the
     #     most risk, but that seems outside of the scope of this project.</p>
     if not printed:
-        print(f"{high_priority_connections[0][0]} {high_priority_connections[0][1]}")
+        print(f"{exit_connections[0][0]} {exit_connections[0][1]}")
